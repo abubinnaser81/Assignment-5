@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Daisy UI  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#F4F7FF] px-20 py-10 min-h-screen">
+    <!-- navbar  -->
+    <header>
+        <nav class="flex justify-between bg-[#FFFFFF] px-5 py-3 rounded-2xl ">
+            <div class="flex items-center gap-1">
+                <img src="./assets/logo.png" alt="">
+                <h1 class="text-2xl">Dev<span class="text-black font-extrabold">Board</span></h1>
+            </div>
+
+            <button id="back-btn" class="btn btn-primary bg-[#3752FD] text-white text-xl font-medium">Back to
+                Desk</button>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1 class="text-2xl font-bold text-center py-4">Blogs</h1>
+            <!-- Question-1  -->
+            <div class="bg-[#FFFFFF] px-5 py-3 rounded-xl">
+                <h1 class="text-xl font-bold">Question-1: What are the different ways to select an element in the DOM?
+                </h1>
+                <p class="border-t-2 my-4"></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eos quae a, ea nemo corrupti nihil
+                    quod aspernatur delectus exercitationem.</p>
+
+            </div>
+
+            <!-- Question-2  -->
+            <div class="bg-[#FFFFFF] px-5 py-3 rounded-xl mt-5">
+                <h1 class="text-xl font-bold">Question-2: What is the difference between innerHTML, innerText, and
+                    textContent ? </h1>
+                <p class="border-t-2 my-4"></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eos quae a, ea nemo corrupti nihil
+                    quod aspernatur
+                    delectus exercitationem.</p>
+
+            </div>
+            <!-- Question-3 -->
+            <div class="bg-[#FFFFFF] px-5 py-3 rounded-xl mt-5">
+                <h1 class="text-xl font-bold">Question-3: What is event delegation in the DOM? </h1>
+                <p class="border-t-2 my-4"></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eos quae a, ea nemo corrupti nihil
+                    quod aspernatur
+                    delectus exercitationem.</p>
+
+            </div>
+            <!-- Question-4  -->
+            <div class="bg-[#FFFFFF] px-5 py-3 rounded-xl mt-5">
+                <h1 class="text-xl font-bold">Question-4: What is event bubbling in the DOM? </h1>
+                <p class="border-t-2 my-4"></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eos quae a, ea nemo corrupti nihil
+                    quod aspernatur
+                    delectus exercitationem.</p>
+
+            </div>
+            <!-- Question-5  -->
+            <div class="bg-[#FFFFFF] px-5 py-3 rounded-xl mt-5">
+                <h1 class="text-xl font-bold">Question-5: How do you create, add, and remove elements using JavaScript?
+                </h1>
+                <p class="border-t-2 my-4"></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eos quae a, ea nemo corrupti nihil
+                    quod aspernatur
+                    delectus exercitationem.</p>
+
+            </div>
+
+
+        </section>
+    </main>
+
+
+    <!-- script btn  -->
+    <script>
+        document.getElementById('back-btn').addEventListener('click', function () {
+            window.location.href = "index.html";
+        })
+    </script>
+
+</body>
+
+</html>
